@@ -1,0 +1,29 @@
+{
+  "name": "ekom-todo-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server public/",
+    "build-webpack": "webpack --watch",
+    "dev-server": "webpack-dev-server",
+    "run-babel": "babel src/script.js --out-file=public/script.js --presets=env,react  --watch "
+  },
+  "author": "Ekom's Todo App",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "live-server": "^1.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
